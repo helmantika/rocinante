@@ -17,7 +17,7 @@ Rocinante has a wizard to help you to install it on a web server. First and fore
   - It's accessible via SSH.
   - A C++ compiler and `make` are available.
 
-Follow these instructions to install Rocinante:
+Follow these instructions to install Rocinante. **Disclaimer: I do not assume any liability for possible emerging "damages" or subsequent "damages" during or after the installation.**
 1. Download Rocinante from...
 2. Upload Rocinante to the server with `scp` or any other way. For instance:
  
@@ -65,3 +65,7 @@ Follow these instructions to install Rocinante:
 22. Access Rocinante with your credentials.
 
     ![Setup07](doc/setup/setup07.png)
+
+# Documentation
+
+Rocinante's translator manual (75 pages) is available [here](https://github.com/helmantika/rocinante/tree/main/doc/Manual%20del%20traductor). Unfortunately, it's only available in Spanish.
