@@ -18,7 +18,7 @@ Rocinante has a wizard to help you to install it on a web server. First and fore
   - A C++ compiler and `make` are available.
 
 Follow these instructions to install Rocinante. **Disclaimer: I do not assume any liability for possible emerging "damages" or subsequent "damages" during or after the installation.**
-1. Download Rocinante from...
+1. Download Rocinante from [here](https://github.com/helmantika/rocinante/releases/tag/v1.0.0) (tar.gz file).
 2. Upload Rocinante to the server with `scp` or any other way. For instance:
  
    `scp rocinante-1.0.0.tar.gz u89502474@home000000000.1and1-data.host:/kunden/homepages/00/0000000000/htdocs/`
