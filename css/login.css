@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+body {
+   font-size: 80% !important;
+}
+header {
+   margin: 0px;
+   padding: 10px;
+}
+.hide {
+   display: none;
+}
+.header-spacing {
+   font-size: x-large;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-top: 10px;
+}
+#main {
+   margin: auto;
+   padding-top: 200px;
+   width: 400px;
+}
+#login {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 30px;
+   padding-top: 30px;
+   text-align: center;
+}
+#login input {
+   font-size: 1.4em;
+   padding: 10px;
+}
+#wrong-data {
+   margin-bottom: 10px;
+   text-align: center;
+}
+#info {
+   font-size: 0.95em;
+   padding: 10px;
+   text-align: center;
+}
+#info a:link {
+   text-decoration: none;
+}
+#info a:visited {
+}
+#info a:hover {
+   text-decoration: none;
+}
+

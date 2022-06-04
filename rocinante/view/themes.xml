@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- jQuery UI themes available -->
+<themes>
+   <theme name="ui-lightness">
+      <background>#4a4a4a</background>
+      <logo>rocinante-white-logo.png</logo>
+   </theme>
+   <theme name="ui-darkness"> 
+      <background>#5a5a5a</background>
+      <logo>rocinante-white-logo.png</logo>
+   </theme>
+   <theme name="smoothness"> 
+      <background>#5a5a5a</background>
+      <logo>rocinante-black-logo.png</logo>
+   </theme>
+   <theme name="start"> 
+      <background>#dae8f2</background>
+      <logo>rocinante-white-logo.png</logo>
+   </theme>
+   <theme name="redmond"> 
+      <background>#e3e3e3</background>
+      <logo>rocinante-white-logo.png</logo>
+   </theme>
+   <theme name="sunny"> 
+      <background>#5a5a5a</background>
+      <logo>rocinante-white-logo.png</logo>
+   </theme>
+   <theme name="overcast"> 
+      <background>#5a5a5a</background>
+      <logo>rocinante-black-logo.png</logo>
+   </theme>
+   <theme name="flick"> 
+      <background>#5a5a5a</background>
+      <logo>rocinante-black-logo.png</logo>
+   </theme>
+   <theme name="eggplant"> 
+      <background>#362b41</background>
+      <logo>rocinante-white-logo.png</logo>
+   </theme>
+   <theme name="dark-hive"> 
+      <background>#5a5a5a</background>
+      <logo>rocinante-white-logo.png</logo>
+   </theme>
+   <theme name="cupertino"> 
+      <background>#dae8f2</background>
+      <logo>rocinante-black-logo.png</logo>
+   </theme>
+   <theme name="south-street"> 
+      <background>#5d9166</background>
+      <logo>rocinante-black-logo.png</logo>
+   </theme>
+   <theme name="blitzer"> 
+      <background>#4a4a4a</background>
+      <logo>rocinante-white-logo.png</logo>
+   </theme>
+   <theme name="humanity"> 
+      <background>#3a3a3a</background>
+      <logo>rocinante-white-logo.png</logo>
+   </theme>
+   <theme name="hot-sneaks"> 
+      <background>#cecece</background>
+      <logo>rocinante-white-logo.png</logo>
+   </theme>
+   <theme name="excite-bike"> 
+      <background>#5a5a5a</background>
+      <logo>rocinante-black-logo.png</logo>
+   </theme>
+   <theme name="vader"> 
+      <background>#5a5a5a</background>
+      <logo>rocinante-white-logo.png</logo>
+   </theme>
+   <theme name="mint-choc"> 
+      <background>#5a5a5a</background>
+      <logo>rocinante-white-logo.png</logo>
+   </theme>
+   <theme name="black-tie"> 
+      <background>#5a5a5a</background>
+      <logo>rocinante-white-logo.png</logo>
+   </theme>
+   <theme name="trontastic"> 
+      <background>#5a5a5a</background>
+      <logo>rocinante-black-logo.png</logo>
+   </theme>
+</themes>

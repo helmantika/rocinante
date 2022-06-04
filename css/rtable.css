@@ -1,0 +1,61 @@
+/* Colors used for table odd rows. It depends on jQuery UI theme. */
+.odd-ui-lightness {
+   background: #e6e6e6;
+}
+.odd-ui-darkness {
+   background: #676767;
+}
+.odd-smoothness {
+   background: #e6e6e6;
+}
+.odd-start {
+   background: #e6e6e6;
+}
+.odd-redmond {
+   background: #f2f9ff;
+}
+.odd-sunny {
+   background: #e8dbc0;
+}
+.odd-overcast {
+   background: #e6e6e6;
+}
+.odd-flick {
+   background: #e6e6e6;
+}
+.odd-eggplant {
+   background: #716979;
+}
+.odd-dark-hive {
+
+}
+.odd-cupertino {
+   background: #f2f5f7;
+}
+.odd-south-street {
+   background: #f5f3e5;
+}
+.odd-blitzer {
+   background: #f0f0f0;
+}
+.odd-humanity {
+   background: #f5f3e5;
+}
+.odd-hot-sneaks {
+   background: #e6e6e6;
+}
+.odd-excite-bike {
+   background: #fff4e0;
+}
+.odd-vader {
+   background: #474747;
+}
+.odd-mint-choc {
+   background: #332a23;
+}
+.odd-black-tie {
+   background: #e6e6e6;
+}
+.odd-trontastic {
+   background: #373737;
+}

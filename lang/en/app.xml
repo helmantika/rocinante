@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lang>
+   <id>en</id>
+   <name>English</name>
+   <!-- Website title -->
+   <title>Rocinante - The Elder Scrolls Online Translation Web App</title>
+   <!-- Add-on name -->
+   <addon>Add-on</addon>
+   <format>
+      <!-- Decimal separator -->
+      <decimal-mark>.</decimal-mark>
+      <!-- Thousands separator -->
+      <thousands-mark>,</thousands-mark>
+      <!-- Date and time format. See http://php.net/manual/en/class.datetime.php -->
+      <date-format>j/n/Y</date-format>
+      <time-format>G:i:s</time-format>
+      <datetime-format>j/n/Y - G:i:s</datetime-format>
+   </format>
+   <pager>
+      <!-- Page X of Y -->
+      <page>Page</page>
+      <of>of</of>
+   </pager>
+   <!-- Gender treating -->
+   <gender>
+      <male>Male</male>
+      <female>Female</female>
+   </gender>
+   <!-- Type of user -->
+   <user-type>
+      <male-admin>Admin</male-admin>
+      <female-admin>Admin</female-admin>
+      <male-advisor>Advisor</male-advisor>
+      <female-advisor>Advisor</female-advisor>
+      <male-translator>Translator</male-translator>
+      <female-translator>Translator</female-translator>
+   </user-type>
+   <!-- Type of task -->
+   <task-type>
+      <translation>Translation</translation>
+      <revision>Revision</revision>
+      <updating>Updating</updating>
+      <glossary>Glossary</glossary>
+   </task-type>
+   <!-- Maintenance is ON -->
+   <maintenance-warning>Maintenance mode is ACTIVATED</maintenance-warning>
+   <!-- AddOn file info -->
+   <addon-file-info>«%1$s» was generated %2$s</addon-file-info>
+   <!-- Task building mode -->
+   <task-mode>
+      <!-- Task contents are assigned by means of selecting strings whose status is 'not translated'
+           or 'not revised' -->
+      <status value="1">Status</status>
+      <!-- Task contents are assigned by means of selecting a number of strings from an offset 
+           that includes translated/revised strings -->
+      <offset-inc value="2">Range</offset-inc>
+      <!-- Task contents are assigned by means of selecting a number of strings from an offset 
+           that excludes translated/revised strings -->
+      <offset-exc value="3">Consecutive</offset-exc>
+   </task-mode>
+   <!-- Field validation errors -->
+   <validation>
+      <error>Please, fix the following errors:</error>
+      <is-non-empty>Field «%s» can't be empty.</is-non-empty>
+      <is-user-type>Value for field «%s» is unknown.</is-user-type>
+      <is-task-type>Value for field «%s» is unknown.</is-task-type>
+      <is-min-length>Length of field «%s» must be greater than %d characters.</is-min-length>
+      <is-max-length>Length of field «%s» must be less than %d characters.</is-max-length>
+      <is-gender>Value for field «%s» is unknown.</is-gender>
+      <is-email>Value for field «%s» is not a valid e-mail address.</is-email>
+      <is-numeric>Value for field «%s» is not a number.</is-numeric>
+      <passwords-mismatch>Passwords don't match.</passwords-mismatch>
+      <username-exists>Username «%s» already exists.</username-exists>
+      <username-not-found>Username «%s» was not found.</username-not-found>
+      <username-has-whitespaces>Username «%s» contains blanks. They aren't allowed.</username-has-whitespaces>
+      <string-size-invalid>Number of strings must be greater than zero.</string-size-invalid>
+      <string-offset-invalid>Starting string must be greater than zero.</string-offset-invalid>
+   </validation>
+   <loginpage>
+      <username>Username</username>
+      <password>Password</password>
+      <!-- Message that is shown when username and/or password are wrong -->
+      <error>Wrong username or password. Please, try again or contact admin at info.teso.es@gmail.com</error>
+      <!-- Information about what this app is -->
+      <about>&lt;em&gt;The Elder Scrolls Online&lt;/em&gt; Translation Web App</about>
+      <!-- Information about joining as a translator. Rocinante is for private websites, so public sign up is not allowed. -->
+      <join>Visit &lt;a href="http://www.cervanteso.org.es"&gt;cervanteso.org.es&lt;/a&gt; for further information</join>
+      <!-- Sorry, site is being maintenanced. -->
+      <maintenance>Currently Rocinante is under maintenance. Sorry for the incovenience.</maintenance>
+   </loginpage>
+   <frontpage>
+      <!-- Translation progress, i.e. "50 of 100 strings translated (50.00%)" -->
+      <translation-status>%1$s out of %2$s strings are translated (%3$s%%)</translation-status>
+      <!-- Add-on download button caption -->
+      <download-button>Download</download-button>
+      <!-- Logout button caption -->
+      <logout-button>Log out</logout-button>
+      <!-- No pending tasks -->
+      <no-pending-tasks>No pending tasks</no-pending-tasks>
+      <!-- A pending task -->
+      <pending-task>1 task is pending</pending-task>
+      <!-- Two or more pending tasks -->
+      <pending-tasks>%d pending tasks</pending-tasks>
+      <!-- No new mail -->
+      <no-new-mail>No new messages</no-new-mail>
+      <!-- A new message -->
+      <new-message>1 new message</new-message>
+      <!-- Two or more new messages -->
+      <new-messages>%d new messages</new-messages>
+      <!-- Seach box placeholder -->
+      <search-caption>Search</search-caption>
+      <!-- Searching doesn't work for strings that have less than 3 characters -->
+      <search-error>Searching expression must contain more than 3 characters.</search-error>      
+      <search-not-found>No results for «%s».</search-not-found>
+      <!-- Caption for code dialogs -->
+      <code-caption>Code</code-caption>
+      <tabs>
+         <!-- Tab that shows table index -->
+         <master-table text="Status">
+            <!-- Pregame & Client tables ID -->
+            <lua-table-id>iu</lua-table-id>
+            <!-- Multiple tables -->
+            <misc-table-id>Misc</misc-table-id>
+            <!-- Tables with some term -->
+            <misc-term-id>Tables with «%s»</misc-term-id>
+            <!-- Description for a new table -->
+            <new-table>New table</new-table>
+            <!-- Index table headers -->
+            <table>
+               <!-- Table ID -->
+               <id>ID</id>
+               <!-- Table description -->
+               <description>Description</description>
+               <!-- Number of strings that a table has -->
+               <strings>Strings</strings>
+               <!-- Percentage of translated strings -->
+               <translated>Trans.</translated>
+               <!-- Percentage of revised strings -->
+               <revised>Rev.</revised>
+               <!-- Number of new strings after updating -->
+               <new>NN</new>
+               <!-- Number of modified strings after updating -->
+               <modified>MM</modified>
+               <!-- People who is translating the table -->
+               <translating>Translating</translating>
+               <!-- People who is revising the table -->
+               <revising>Revising</revising>
+            </table>
+         </master-table>
+         <!-- Task tab -->
+         <tasks text="Tasks">
+            <new-task-button>New task</new-task-button>
+            <open-task-button>Open task</open-task-button>
+            <reassign-task-button>Reassign task</reassign-task-button>
+            <revise-task-button>Revise task</revise-task-button>
+            <delete-task-button>Delete task</delete-task-button>
+            <task-number>Task No. </task-number>
+            <!-- Table that shows user tasks -->
+            <user-task-table-caption>Assigned tasks</user-task-table-caption>
+            <!-- Table that shows which tasks a user assigned -->
+            <assigner-task-table-caption>Tasks you assigned</assigner-task-table-caption>
+            <!-- There are no tasks -->
+            <tasks-empty>There is no task</tasks-empty>
+            <!-- You have no tasks -->
+            <no-tasks>You don't have any pending tasks</no-tasks>
+            <!-- You didn't assign any task -->
+            <no-assigned-tasks>You didn't assign any tasks</no-assigned-tasks>
+            <!-- Tasks assigned to ME -->
+            <me>me</me>
+            <!-- "My tasks" and "Their tasks" table headers -->
+            <table>
+               <!-- ID -->
+               <id>ID</id>
+               <!-- Task date -->
+               <date>Date</date>
+               <!-- Type of task -->
+               <type>Type</type>
+               <!-- Table description -->
+               <description>Table</description>
+               <!-- Number of strings -->
+               <count>Strings</count>
+               <!-- Progress (%) -->
+               <progress>Progress</progress>
+               <!-- User who assigned the task -->
+               <assigner>Assigned by</assigner>
+               <!-- User who's perforing a task I assigned -->
+               <assigned>Assigned to</assigned>
+            </table>
+         </tasks>
+         <!-- Mail tab -->
+         <mail text="Mail">
+            <tabs>
+               <inbox>Received</inbox>
+               <outbox>Sent</outbox>
+               <drafts>Drafts</drafts>
+            </tabs>
+            <new-message-button>New message</new-message-button>
+            <new-reply-button>Reply</new-reply-button>
+            <new-reply-all-button>Reply all</new-reply-all-button>
+            <open-draft-button>Open</open-draft-button>
+            <delete-message-button>Delete</delete-message-button>
+            <no-mail>No mail</no-mail>
+            <related-messages>Related messages</related-messages>
+            <!-- Mail table headers -->
+            <table>
+               <from>From</from>
+               <to>to</to>
+               <!-- Sent date (1) and time (2) -->
+               <sent>Sent %1$s %2$s</sent>
+               <!-- Reception date and time -->
+               <received>Received %1$s %2$s</received>
+               <!-- Draft creation date -->
+               <created>Created %1$s %2$s</created>
+            </table>
+            <message-sent-ok>Message was sent.</message-sent-ok>
+            <draft-saved-ok>Message was saved as a draft.</draft-saved-ok>
+         </mail>
+         <!-- Admin tab -->
+         <admin text="Admin">
+            <tabs>
+               <!-- User tab -->
+               <users text="Users">
+                  <new-user-button>New user</new-user-button>
+                  <modify-user-button>Modify user</modify-user-button>
+                  <delete-user-button>Delete user</delete-user-button>
+                  <!-- User table headers -->
+                  <table>
+                     <username>Alias</username>
+                     <!-- Type of user -->
+                     <type>Role</type>
+                     <!-- First name -->
+                     <name>Name</name>
+                     <email>E-mail</email>
+                     <!-- Start date -->
+                     <since>Since</since>
+                  </table>
+               </users>
+               <stats text="Stats">
+                  <table>
+                     <username>Alias</username>
+                     <translated>Translated</translated>
+                     <revised>Revised</revised>
+                     <updated>Updated</updated>
+                     <since>Since</since>
+                     <last-action>Last action</last-action>
+                  </table>
+               </stats>
+               <tasks text="Tasks"></tasks>
+               <addon text ="Add-on"> <!-- Add-on name -->
+                  <extra-files>Extra files</extra-files>
+                  <zip-file>ZIP file with extra files</zip-file>
+                  <client-header-file>Header for «xx_client.str»</client-header-file>
+                  <pregame-header-file>Header for «xx_pregame.str»</pregame-header-file>
+                  <version>Versión</version>
+                  <browse>Browse</browse>
+                  <generate-button>Generate</generate-button>
+                  <extrafiles-mode>
+                     <no-extrafiles>None</no-extrafiles>
+                     <add-extrafiles>Add</add-extrafiles>
+                     <delete-extrafiles>Delete and add</delete-extrafiles>
+                  </extrafiles-mode>
+                  <no-zip>%s is not a valid ZIP file or can't be decompressed.</no-zip>
+                  <creating-addon> Generating</creating-addon>
+                  <error0>ERROR G0: Missing files.</error0>
+                  <error1>ERROR G1: Number of arguments is wrong.</error1>
+                  <error2>ERROR G2: Invalid directory.</error2>
+                  <error3>ERROR G3: Official language is not valid. It's not «en», «fr», or «de»).</error3>
+                  <error4>ERROR G4: Non-official language is not valid. It has more than 2 characters.</error4>
+                  <error5>ERROR G5: File «en.lang» is not present.</error5>
+                  <error6>ERROR G6: File «en.lang» is not valid.</error6>
+                  <error7>ERROR G7: File «en_client.lua» or «en_pregame.lua» is not present.</error7>
+                  <error8>ERROR G8: File «en_client.lua» or «en_pregame.lua» is not valid.</error8>
+                  <error9>ERROR G9: Unable to create translation files (not enough permissions).</error9> 
+               </addon>
+               <!-- Database update tab -->
+               <update text="Update">
+                  <client-en>File «en_client.lua»</client-en>
+                  <pregame-en>File «en_pregame.lua»</pregame-en>
+                  <lang-en>File «en.lang.zip»</lang-en>
+                  <client-fr>File «fr_client.lua»</client-fr>
+                  <pregame-fr>File «fr_pregame.lua»</pregame-fr>
+                  <lang-fr>File «fr.lang.zip»</lang-fr>
+                  <client-de>File «de_client.lua»</client-de>
+                  <pregame-de>File «de_pregame.lua»</pregame-de>
+                  <lang-de>File «de.lang»</lang-de>
+                  <browse>Browse</browse>
+                  <maintenance>Maintenance mode</maintenance>
+                  <update>Update</update>
+                  <updating> Updating</updating>
+               </update>
+            </tabs>
+         </admin>
+         <!-- Working tab -->
+         <work>
+            <!-- Translation table headers -->
+            <table>
+               <!-- Table ID -->
+               <tableid>Table</tableid>
+               <!-- String ID -->
+               <stringid>String</stringid>
+               <!-- Sequence ID -->
+               <seqid>Seq</seqid>
+               <!-- Type of string (one letter) -->
+               <string-type>T</string-type>
+               <!-- String for translating -->
+               <string>Strings</string>
+               <!-- String status (one letter) -->
+               <status>S</status>
+               <!-- Notes -->
+               <notes>Notes</notes>
+            </table>
+            <buttonset>
+               <save caption="Save">Saves this translation or any change.</save>
+               <cancel caption="Cancel">Cancels any change.</cancel>
+               <delete caption="Delete">Deletes the translation and leaves it blank.</delete>
+               <ellipsis caption="...">Inserts an ellipsis at cursor position.</ellipsis>
+               <std-code-1>Inserts &lt;&lt;1&gt;&gt; code at cursor position.</std-code-1>
+               <std-code-g1>Inserts &lt;&lt;1{male/female}&gt;&gt; at cursor position.</std-code-g1>
+               <player caption="player">Inserts &lt;&lt;player{male/female}&gt;&gt; code at cursor position.</player>
+               <npc caption="npc">Inserts &lt;&lt;npc{male/female}&gt;&gt; code at cursor position.</npc>
+               <copyfr caption="fr">Copies French text after cursor position.</copyfr>
+               <copyen caption="en">Copies English text after cursor position.</copyen>
+               <revise caption="Revise">Marks this translation as revised.</revise>
+               <unrevise caption="Unrevise">Removes revised mark.</unrevise>
+               <lock caption="Lock">Locks this translation. Translators won&#x02ca;t be able to edit it.</lock>
+               <unlock caption="Unlock">Unlocks this translation. Translators will be able to edit it.</unlock>
+               <annul caption="Annul">Copies English text, translation is marked as translated and revised, and locks it.</annul>
+               <dispute caption="Dispute">Locks this string to denote that the best way to translate it should be discussed.</dispute>
+            </buttonset>
+            <string-status>
+               <editing>In edit</editing>
+               <disputed>Disputed. Locked</disputed>
+               <locked>Locked</locked>
+               <revised>Revised</revised>
+               <not-revised>Not revised</not-revised>
+               <not-translated>Not translated</not-translated>
+            </string-status>
+            <no-terms>No terms</no-terms>
+         </work>
+      </tabs>
+   </frontpage>
+   <dialog>
+      <!-- OK button caption for standard dialogs -->
+      <ok-button>OK</ok-button>
+      <!-- Cancel button caption for standard dialogs -->
+      <cancel-button>Cancel</cancel-button>
+      <yes>Yes</yes>
+      <no>No</no>
+      <send-button>Send</send-button>
+      <save-button>Save</save-button>
+      <esotable>
+         <title>Modify description and title</title>
+         <type>Type</type>
+         <success-modification>Description and type of table «%s» was changed successfully.</success-modification>
+      </esotable>
+      <modify-user-account>Change your account</modify-user-account>
+      <user-account-success-modification>Your account data was changed successfully.</user-account-success-modification>
+      <user>
+         <username>Username</username>
+         <password>Password</password>
+         <password-again>Password (again)</password-again>
+         <type>Role</type>
+         <name>Name</name>
+         <gender>Treatment</gender>
+         <email>E-mail</email>
+         <ui-theme>Rocinante's UI theme</ui-theme>
+         <advisor>Advisor</advisor>
+         <warning>Changing UI requires to reload Rocinante.</warning>
+         <success-addition>New user «%s» was created.</success-addition>
+         <success-modification>Information for user «%s» was changed successfully.</success-modification>
+         <confirm-deletion>Please, confirm that user «%s» must be deleted.</confirm-deletion>
+         <success-deletion>User «%s» was deleted successfully.</success-deletion>
+      </user>
+      <glossary>
+         <add>Add</add>
+         <delete>Delete</delete>
+         <add-title>Adds a new term to the glossary</add-title>
+         <update-title>Changes a glossary term</update-title>
+         <term>Term or expression</term>
+         <plural-term>Plural term</plural-term>
+         <optional>Optional</optional>
+         <translation>Translation</translation>
+         <only-singular>Singular</only-singular>
+         <type>Type</type>
+         <locked>Locked</locked>
+         <note>Note</note>
+         <count>Count</count>
+         <term-exists>The term for selected type is already in the glossary.</term-exists>
+         <new-term-warning>Please, give the term an uppercase initial only if it really requires that.</new-term-warning>
+         <update-term-warning>Keep in mind that changing a term translation implies that every translated string with the term should be updated. A new task will be created and assigned to you to do it.</update-term-warning>
+         <glossary-warning>It's strictly prohibited to add common terms as castle, silver, goat, river, etc.</glossary-warning>
+         <cannot-count-term>Terms that contain less than 3 characters can't be counted.</cannot-count-term>
+         <counter-no-matches>Term «%s» was not found in any string.</counter-no-matches>
+         <counter-one-match>Term «%s» is in 1 string.</counter-one-match>
+         <counter-many-matches>Term «%1$s» is in %2$s strings.</counter-many-matches>
+         <noun-adjective-verb>n., adj. or verb</noun-adjective-verb>
+         <place-proper-name>place proper noun</place-proper-name>
+         <person-proper-name>personal proper noun</person-proper-name>
+         <object-proper-name>thing proper noun</object-proper-name>
+         <rank>rank</rank>
+         <skill>skill</skill>
+      </glossary>
+      <task>
+         <type>Type</type>
+         <user>Assign to</user>
+         <table>Table</table>
+         <task-building-mode>Creation mode</task-building-mode>
+         <offset>Offset</offset>
+         <count>Number of strings</count>
+         <select>Select</select>
+         <select-table>Select a table</select-table>
+         <success-addition>Task No. %d was created successfully.</success-addition>
+         <fail-addition>Task can't be created because selection condition can't be met.</fail-addition>
+         <task-progress>Progress of task No. %1$s is %2$s%%. </task-progress>
+         <string-revised-zero>No string has been revised.</string-revised-zero>
+         <string-revised-one>Only 1 out of %1$s strings have been revised.</string-revised-one>
+         <string-revised-many>Only %2$s out of %1$s strings have been revised.</string-revised-many>
+         <string-revised-all>Every string is revised.</string-revised-all>
+         <confirm-deletion>&lt;br /&gt;&lt;br /&gt;Do you really want to delete it?</confirm-deletion>
+         <confirm-deletion-simple>Progress of task No. %1$s is %2$s%%. Do you really want to delete it?</confirm-deletion-simple>
+         <success-deletion>Task No. %s was deleted successfully.</success-deletion>
+      </task>
+      <mail>
+         <to>To</to>
+         <subject>Subject</subject>
+         <select>Select</select>
+         <select-user>Select a recipient</select-user>
+         <unknown-addressees>The following recipients are unknown: %s.</unknown-addressees>
+         <invalid-addressees>Recipients are invalid.</invalid-addressees>
+      </mail>
+      <maintenance>
+         <title>Maintenance mode</title>
+         <status>Status</status>
+         <activate>On</activate>
+         <deactivate>Off</deactivate>
+         <message>Warning message</message>
+      </maintenance>
+   </dialog>
+   <setup>
+      <test-button>Test connection</test-button>
+      <prev-button>Back</prev-button>
+      <next-button>Next</next-button>
+      <finish-button>Finish</finish-button>
+      <host>IP address/URL</host>
+      <database>Database name</database>
+      <user>User</user>
+      <password>Password</password>
+      <target-language>Target language (br, es, it, pt…)</target-language>
+      <csv-file>CSV file (.zip)</csv-file>
+      <database-setup-text>&lt;strong&gt;Step 1. Creation of database structure&lt;/strong&gt;&lt;br/&gt;Enter the required information to conect to a database that was created on a MySQL server version 5.5 or higher.</database-setup-text>
+      <files-setup-text>&lt;strong&gt;Step 2. Loading of game data&lt;/strong&gt;&lt;br/&gt;Select the specified files. Keep in mind that binary files &lt;em&gt;fr.lang&lt;/em&gt; and &lt;em&gt;en.lang&lt;/em&gt; must be zipped. To get the files, download &lt;a href="http://en.uesp.net/wiki/Online:EsoExtractData" target="_blank"&gt;EsoExtractData&lt;a&gt; tool, run Windows PowerShell or Command Prompt, go to folder that stores &lt;em&gt;EsoExtractData.exe&lt;/em&gt;, and write the following commands:&lt;br/&gt; &lt;tt&gt;EsoExtractData "C:\&lt;em&gt;path_to&lt;/em&gt;\Zenimax Online\The Elder Scrolls Online\depot\eso.mnf" "C:\&lt;em&gt;target_folder&lt;/em&gt;" -a 0&lt;br/&gt;EsoExtractData "C:\&lt;em&gt;path_to&lt;/em&gt;\Zenimax Online\The Elder Scrolls Online\depot\eso.mnf" "C:\&lt;em&gt;target_folder&lt;/em&gt;" -a 2&lt;/tt&gt;</files-setup-text>
+      <target-language-text>&lt;strong&gt;Step 3. Target language&lt;/strong&gt;&lt;br/&gt;Enter the language which the game will be translated into. It must be specified by means of a two letter code. Optionally it is possible to load translated strings with an EsoExtractData CSV (Comma-Separated Values) file. This file must include translated strings only and it must be zipped. It has the following format:&lt;br/&gt;&lt;tt&gt;"ID","Unknown","Index","Offset","Text"&lt;br/&gt;"3427285","0","7","5","Beber"&lt;br/&gt;"228103012","0","9037","22152076","Eres una mujer."&lt;/tt&gt;&lt;br/&gt;and so on.</target-language-text>
+      <admin-text>&lt;strong&gt;Step 4. First user&lt;/strong&gt;&lt;br/&gt;Enter information for the first admin.</admin-text>
+      <end-setup-text>&lt;strong&gt;Writing of tips&lt;/strong&gt;&lt;br/&gt;Edit lang/en/tips.php to write useful tips for translators.&lt;strong&gt;&lt;br/&gt;&lt;br/&gt;Instructions for code transcription&lt;/strong&gt;&lt;br/&gt;File lang/en/codes.php should be edited in order to give precise information about how ESO codes must be transcribed.&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Please, due to security reasons, remove permissions from setup.php or delete that file. Don't forget it!&lt;/strong&gt;</end-setup-text>
+      <failed-connection>Unable to connect. Response: </failed-connection>
+      <right-connection>Connection is right.</right-connection>
+      <wait> Please, wait</wait>
+      <target-language-error>Target language is not valid.</target-language-error>
+      <term-type>
+         <t1>Common noun, adjective, or verb</t1>
+         <t2>Proper noun of place</t2>
+         <t3>Proper noun of person/organization</t3>
+         <t4>Proper noun of thing</t4>
+         <t5>Rank</t5>
+         <t6>Skill</t6>
+      </term-type>
+      <lang-type>
+         <t0>Undefined or unclassifiable</t0>
+         <t1>Metatable</t1>
+         <t2>User interface</t2>
+         <t3>NPC\'s libretto</t3>
+         <t4>Player\'s libretto</t4>
+         <t5>Quest log</t5>
+         <t6>NPCs</t6>
+         <t7>Objects</t7>
+         <t8>Places</t8>
+         <t9>Books</t9>
+      </lang-type>
+   </setup>
+</lang>

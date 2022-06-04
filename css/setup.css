@@ -1,0 +1,97 @@
+@CHARSET "UTF-8";
+body {
+   font-size: 80% !important;
+}
+header {
+   margin: 0px;
+   padding: 10px;
+}
+.hide {
+   display: none;
+}
+.header-spacing {
+   font-size: x-large;
+   padding-left: 10px;
+   padding-right: 10px;
+   margin-top: 10px;
+}
+.outer {
+  display: table;
+  position: absolute;
+  height: 99%;
+  width: 99%;
+}
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+.inner {
+  margin: auto;
+  width: 700px;
+}
+.content {
+   display: flex;
+   justify-content: center;
+   margin: 15px 0px 15px 0px;
+   padding: 10px 20px 10px 20px;
+}
+.content button {
+   font-size: 0.9em !important;
+   margin-bottom: 2px;
+}
+.content fieldset {
+   border: 0;
+   margin: 0px;
+   padding: 0px;
+}
+.content table {
+   align-self: center;
+}
+.content fieldset#center {
+   border: 0;
+   margin-left: 40%;
+   padding: 0px;
+}
+.content label {
+   display: block;
+   margin: 5px 0 0 0;
+}
+.content input {
+   padding: 4px 0px 4px 0px;
+   width: 176px; /* 180 (selectmenu) - 4 */
+}
+.content #checkbox {
+   width: 0px;
+}
+.right-text {
+   text-align: right;
+}
+.header-spacing {
+   margin-top: 10px;
+}
+.warning {
+   font-size: 1.3em !important;
+   padding: 0.7em;
+}
+.warning-padding {
+   margin-bottom: 10px;
+   padding: 0.7em;
+}
+.warning-icon-pos {
+   float: left;
+   margin-right: .3em;
+}
+#info {
+   font-size: 0.95em;
+   padding: 10px;
+   text-align: center;
+}
+#info a:link {
+   text-decoration: none;
+}
+#info a:visited {
+}
+#info a:hover {
+   text-decoration: none;
+}
+

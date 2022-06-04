@@ -1,0 +1,286 @@
+/*
+    Rocinante - «The Elder Scrolls Online» Translation Web App
+    Copyright (C) 2016 Jorge Rodríguez Santos
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+@CHARSET "UTF-8";
+body {
+   background-color: #5a5a5a;
+   font-size: 80% !important;
+   margin: auto;
+   padding: 10px;
+   width: 1152px;
+}
+.hide {
+   display: none;
+}
+.header {
+   display: table;
+   margin: 0px;
+   width:100%;
+}
+.tablecell {
+   display: table-cell;
+   padding: 10px 20px 10px 20px;
+   vertical-align: middle;
+}
+.left-text {
+   text-align: left;
+}
+.right-text {
+   text-align: right;
+}
+#motd {
+   align-items: center;
+   display: flex;
+   font-size: medium;
+   height: 200px;
+   margin: 15px 0px 15px;
+   padding: 20px 30px 20px 30px;
+}
+#search {
+   display: table;
+   margin:0px 0px 15px 0px;
+   width:100%;
+}
+#search p {
+   margin: 0px 20px;
+   padding: 0px;
+   text-align: right;
+}
+#search input {
+   margin: 15px 0px 15px 0px;
+   padding: 5px;
+   width: 250px;
+}
+table {
+   border-spacing: 1px;
+   width: 100%;
+}
+table th,td {
+   padding: 5px;
+}
+footer {
+   margin: 15px 0px 15px 0px;
+   padding: 10px 20px 10px 20px;
+   text-align: center;
+}
+.header-spacing {
+   margin-top: 20px;
+}
+.header-padding {
+   padding: 10px 10px 10px 10px;
+}
+div ul li .ui-icon-circle-close {
+   float: left;
+   margin: 0.4em 0.2em 0 0;
+   cursor: pointer; 
+}
+.content {
+   margin: 15px 0px 15px 0px;
+   padding: 10px 20px 10px 20px;
+}
+.content button {
+   font-size: 0.9em !important;
+   margin-bottom: 2px;
+}
+.content fieldset {
+   border: 0;
+   margin: 0px;
+   padding: 0px;
+}
+.content fieldset#center {
+   border: 0;
+   margin-left: 40%;
+   padding: 0px;
+}
+.content label {
+   display: block;
+   margin: 5px 0 0 0;
+}
+.content input {
+   padding: 4px 0px 4px 0px;
+   width: 176px; /* 180 (selectmenu) - 4 */
+}
+.content #checkbox {
+   width: 0px;
+}
+.open-dialog-button {
+   font-size: 0.9em;
+   padding: .4em 1em .4em 20px;
+   position: relative;
+   text-decoration: none;
+}
+.open-dialog-button span.ui-icon {
+   margin: 0 5px 0 0;
+   position: absolute;
+   left: .2em;
+   top: 50%;
+   margin-top: -8px;
+}
+
+.warning-padding {
+   padding: 0 .7em;
+}
+.warning-icon-pos {
+   float: left;
+   margin-right: .3em;
+}
+
+#translation_table td {
+   vertical-align: top;
+}
+
+.original-token {
+   font-size: 12px !important;
+   font-style: normal !important;
+   display: inline !important;
+   margin-left: 5px !important;
+   padding-left: 5px !important;
+}
+.translated-token {
+   font-size: 12px !important;
+   font-style: normal !important;
+   display: inline !important;
+   margin-left: 5px !important;
+   padding: 0 5px 0 5px !important;
+}
+.noun-adjective-verb {
+   background: #2471b7;
+   color: #ffffff;
+}
+.place-proper-name {
+   background: #e56d6c;
+   color: #ffffff;
+}
+.person-proper-name {
+   background: #f48250;
+   color: #ffffff;
+}
+.object-proper-name {
+   background: #9598cb;
+   color: #ffffff;
+}
+.rank {
+   background: #b276b2;
+   color: #ffffff;
+}
+.skill {
+   background: #86b7df;
+   color: #ffffff;
+}
+.fr {
+   background-image: url("../images/fr.png") !important; 
+   background-position: center center !important;
+   background-repeat: no-repeat !important;
+   background-size: 100% 100% !important;
+}
+.en {
+   background-image: url("../images/en.png") !important;
+   background-position: center center !important;
+   background-repeat: no-repeat !important;
+   background-size: 100% 100% !important;
+}
+.es {
+   background-image: url("../config/target.png") !important;
+   background-position: center center !important;
+   background-repeat: no-repeat !important;
+   background-size: 100% 100% !important;
+}
+.not-translated {
+   background: #e56d6c !important;
+}
+.not-revised {
+   background: #fbd542 !important;
+}
+.not-revised-and-updated {
+   background-color: #fbd542 !important;
+   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,.5) 10px, rgba(255,255,255,.5) 20px) !important;
+}
+.revised {
+   background: #a2cfb8 !important;
+}
+.revised-and-updated {
+   background: #a2cfb8 !important;
+   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,.5) 10px, rgba(255,255,255,.5) 20px) !important;
+}
+.locked {
+   background: #aeb4b4 !important;
+}
+.locked-and-updated {
+   background: #aeb4b4 !important;
+   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,.5) 10px, rgba(255,255,255,.5) 20px) !important;
+}
+.disputed {
+   background: #f3814f !important;
+}
+.code-help a:link {
+   text-decoration: none;
+   font-weight: normal;
+}
+.code-help a:visited {
+}
+.code-help a:hover {
+   font-weight: bold;
+}
+.buttonset {
+   font-size: 75% !important;
+   margin: 3px 5px 3px 0px;
+}
+
+.message-subject {
+   margin: 0px;
+   padding: 0px;
+   font-weight: normal;
+}
+.message-info {
+   font-size: 80%;
+   margin: 0px;
+   padding: 0px;
+   font-weight: normal;
+}
+
+.related-messages-caption {
+   margin: 40px 10px 10px 0px;
+   padding: 5px
+}
+.related-messages-height {
+   max-height: 300px;
+   overflow-y: auto;
+}
+.related-messages-header {
+   margin-right: 10px;
+}
+.related-messages-subject {
+   margin: 0px; 
+   padding: 5px 5px 0px 5px;
+}
+.related-messages-info {
+   font-size: 80%;
+   margin: 0px;
+   padding: 0px 5px 5px 5px;
+}
+.scrollable-dialog {
+   height: 400px;
+   overflow: auto;
+}
+pre {
+   display: block;
+   font-family: monospace;
+   font-size: 14px;
+   font-weight: bold;
+   white-space: pre;
+}
