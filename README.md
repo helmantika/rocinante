@@ -4,6 +4,8 @@
 
 Rocinante is the web application Cervanteso used for eight years to translate the computer game The Elder Scrolls Online®. Cervanteso was a group of professional and amateur translators who translated the most part of the game into Spanish until Zenimax Online Studios® released its official translation on June 6, 2022.
 
+![Screenshot](doc/setup/cervanteso.png)
+    
 Although Rocinante was developed keeping in mind Spanish as target language, it can be used for any other one. In fact, Rocinante was deployed years ago to help Brazilian community to translate the game into Portuguese. However, the web app is no longer maintained. 
 
 # Setup
@@ -54,3 +56,12 @@ Follow these instructions to install Rocinante:
 
     ![Setup04](doc/setup/setup04.png)
 19. Click on Next. Rocinante will start to populate the database. This process will take long because the amount of information is huge. More than 8,000,000 words!
+20. Enter the information for the first administrator. An administrator has permission to do everything: create and remove users, generate the add-on, update the database, etc.
+
+    ![Setup05](doc/setup/setup05.png)
+21. The last screen suggests task to do after installing Rocinante. Remember to **delete setup.php** file. Also, you must **set read and executable permission just for the owner of config folder** (500): `chmod 500 config`
+
+    ![Setup06](doc/setup/setup06.png)
+22. Access Rocinante with your credentials.
+
+    ![Setup07](doc/setup/setup07.png)
