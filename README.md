@@ -8,6 +8,10 @@ Rocinante is the web application Cervanteso used for eight years to translate th
     
 Although Rocinante was developed keeping in mind Spanish as target language, it can be used for any other one. In fact, Rocinante was deployed years ago to help Brazilian community to translate the game into Portuguese. However, the web app is no longer maintained. 
 
+# Disclaimer
+
+THIS MATERIAL IS NOT MADE, GUARANTEED OR SUPPORTED BY ZENIMAX OR ITS AFFILIATES.
+
 # Setup
 
 Rocinante has a wizard to help you to install it on a web server. First and foremost, be sure your web server meets these **requirements**:
