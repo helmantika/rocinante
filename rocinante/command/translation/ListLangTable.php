@@ -69,7 +69,8 @@ class ListLangTable extends \rocinante\controller\Command
             $html .= "<td class='fr'></td>";
             $html .= "<td>" . \nl2br(\htmlspecialchars($object->get("$prefix.Fr"), ENT_COMPAT | ENT_HTML5, "UTF-8")) . "</td>\n";
             $html .= "<td rowspan=3></td>\n"; // Status color.
-            $html .= "<td rowspan=3><div>" . \nl2br(\htmlspecialchars($object->get("$prefix.Notes"), ENT_COMPAT | ENT_HTML5, "UTF-8")) . "</div></td>\n";
+            $notes = $object->get("$prefix.Notes");
+            $html .= "<td rowspan=3><div>" . ($notes === null ? "<br />" : \nl2br(\htmlspecialchars($notes, ENT_COMPAT | ENT_HTML5, "UTF-8"))) . "</div></td>\n";
             $html .= "<td rowspan=3>0</td>\n"; // IsUpdated (only for Glossary and Updating tasks).
             $html .= "<td rowspan=3>" . $object->get("$prefix.IsTranslated") . "</td>\n";
             $html .= "<td rowspan=3>" . $object->get("$prefix.IsRevised") . "</td>\n";

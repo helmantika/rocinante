@@ -26,7 +26,7 @@ class CheckSession extends \rocinante\controller\Command
          $username = null;
 
          // Get session ID from the cookie.
-         $sessionid = filter_input(INPUT_COOKIE, 'RocinanteSID', FILTER_SANITIZE_STRING);
+         $sessionid = filter_input(INPUT_COOKIE, 'RocinanteSID');
          if ($sessionid !== null && $sessionid !== false)
          {
             // Check if a session with this ID exists in database.

@@ -250,7 +250,7 @@ CREATE TABLE `EsoTable` (
   `Number` smallint(3) UNSIGNED DEFAULT NULL,
   `Description` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `TypeId` tinyint(3) UNSIGNED NOT NULL DEFAULT '0',
-  `Size` smallint(5) UNSIGNED NOT NULL DEFAULT '0',
+  `Size` int(10) UNSIGNED NOT NULL DEFAULT '0',
   `Translated` float(6,2) NOT NULL DEFAULT '0.00',
   `Revised` float(6,2) NOT NULL DEFAULT '0.00',
   `New` int(10) UNSIGNED NOT NULL DEFAULT '0',

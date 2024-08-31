@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lang>
    <id>br</id>
-   <name>Portugues Brasileiro</name>
+   <name>Português do Brasil</name>
    <!-- Website title -->
-   <title>Rocinante - O Web App para traudução do The Elder Scrolls Online</title>
+   <title>Rocinante - O Web App para tradução do The Elder Scrolls Online</title>
    <!-- Add-on name -->
    <addon>Add-on</addon>
    <format>
@@ -83,8 +83,8 @@
       <!-- Information about what this app is -->
       <about>&lt;em&gt;The Elder Scrolls Online&lt;/em&gt; Translation Web App</about>
       <!-- Information about joining as a translator. Rocinante is for private websites, so public sign up is not allowed. -->
-      <join>Visite &lt;a href="http://www.cervanteso.org.es"&gt;cervanteso.org.es&lt;/a&gt;</join>
-      <!-- Sorry, site is being maintenanced. -->
+      <join>Visite &lt;a href="https://www.cervanteso.org.es"&gt;cervanteso.org.es&lt;/a&gt;</join>
+      <!-- Sorry, site is being maintained. -->
       <maintenance>No momento o Rocinante está em manutenção. Desculpe pelo incoveniente.</maintenance>
    </loginpage>
    <frontpage>
@@ -106,7 +106,7 @@
       <new-message>1 nova mensagem</new-message>
       <!-- Two or more new messages -->
       <new-messages>%d novas mensagens</new-messages>
-      <!-- Seach box placeholder -->
+      <!-- Search box placeholder -->
       <search-caption>Procurar</search-caption>
       <!-- Searching doesn't work for strings that have less than 3 characters -->
       <search-error>A busca pro expressões deve conter mais de 3 caracteres</search-error>      
@@ -182,7 +182,7 @@
                <progress>Progresso</progress>
                <!-- User who assigned the task -->
                <assigner>Atribuída por</assigner>
-               <!-- User who's perforing a task I assigned -->
+               <!-- User who's performing a task I assigned -->
                <assigned>Atribuída para</assigned>
             </table>
          </tasks>
@@ -244,7 +244,7 @@
                      <last-action>Última ação</last-action>
                   </table>
                </stats>
-               <tasks text="Funções"></tasks>
+               <tasks text="Funções" />
                <addon text ="Add-on"> <!-- Add-on name -->
                   <extra-files>Arquivos extra</extra-files>
                   <zip-file>Arquivo ZIP com arquivos extra</zip-file>
@@ -312,16 +312,16 @@
                <save caption="Salvar">Salva essa tradução ou qualquer mudança.</save>
                <cancel caption="Cancelar">Cancela qualquer mudança.</cancel>
                <delete caption="Apagar">Apaga a tradução e deixa em branco.</delete>
-               <ellipsis caption="...">Insire uma reticências na posição do cursor.</ellipsis>
-               <std-code-1>Insere &lt;&lt;1&gt;&gt; cógigo na posição do cursor.</std-code-1>
+               <ellipsis caption="...">Insere uma reticências na posição do cursor.</ellipsis>
+               <std-code-1>Insere &lt;&lt;1&gt;&gt; código na posição do cursor.</std-code-1>
                <std-code-g1>Insere &lt;&lt;1{male/female}&gt;&gt; na posição do cursor.</std-code-g1>
                <player caption="player">Insere &lt;&lt;player{male/female}&gt;&gt; código na posição do cursor.</player>
                <npc caption="npc">Insere &lt;&lt;npc{male/female}&gt;&gt; código na posição do cursor.</npc>
-               <copyfr caption="fr">Copies French text after cursor position.</copyfr>
-               <copyen caption="en">Copies English text after cursor position.</copyen>
+               <copyfr caption="fr">Copia o texto em frances na posição do cursor.</copyfr>
+               <copyen caption="en">Copia o texto em inglês na posição do cursor.</copyen>
                <revise caption="Revisado">Marca essa tradução como revisada.</revise>
                <unrevise caption="Não revisado">Remove a marca de revisado.</unrevise>
-               <lock caption="Trancar">Tranca essa tradução. Tradudores não poderão editá-la.</lock>
+               <lock caption="Trancar">Tranca essa tradução. Tradutores não poderão editá-la.</lock>
                <unlock caption="Liberar">Libera essa tradução. Tradutores poderão editá-la.</unlock>
                <annul caption="Anul">Copies English text, translation is marked as translated and revised, and locks it.</annul>
                <dispute caption="Disputa">Marca essa linha para dizer que o melhor jeito de traduzir deve ser discutido.</dispute>
@@ -447,7 +447,7 @@
       <target-language>Linguagem da tradução (br, es, it, pt…)</target-language>
       <csv-file>Arquivo CSV (.zip)</csv-file>
       <database-setup-text>&lt;strong&gt;Passo 1. Criação da estrutura da base de dados&lt;/strong&gt;&lt;br/&gt;Entre a informação requerida para conectar na base de dados previamente criada em um servidor MySQL server versão 5.5 ou superior.</database-setup-text>
-      <files-setup-text>&lt;strong&gt;Passo 2. Carregando os dados do jogo&lt;/strong&gt;&lt;br/&gt;Selecione os arquivos indicados. Tenha em mente que os arquivos binários &lt;em&gt;fr.lang&lt;/em&gt; e &lt;em&gt;en.lang&lt;/em&gt; devem estar em formato zip. Para pegar os arquivos, baixe a ferramenta &lt;a href="http://en.uesp.net/wiki/Online:EsoExtractData" target="_blank"&gt;EsoExtractData&lt;a&gt; rode o Windows PowerShell ou Promt de Comando, vá até a pasta que guarda &lt;em&gt;EsoExtractData.exe&lt;/em&gt;, e escreva os seguintes comandos:&lt;br/&gt; &lt;tt&gt;EsoExtractData "C:\&lt;em&gt;path_to&lt;/em&gt;\Zenimax Online\The Elder Scrolls Online\depot\eso.mnf" "C:\&lt;em&gt;target_folder&lt;/em&gt;" -a 0&lt;br/&gt;EsoExtractData "C:\&lt;em&gt;path_to&lt;/em&gt;\Zenimax Online\The Elder Scrolls Online\depot\eso.mnf" "C:\&lt;em&gt;target_folder&lt;/em&gt;" -a 2&lt;/tt&gt;</files-setup-text>
+      <files-setup-text>&lt;strong&gt;Passo 2. Carregando os dados do jogo&lt;/strong&gt;&lt;br/&gt;Selecione os arquivos indicados. Tenha em mente que os arquivos binários &lt;em&gt;fr.lang&lt;/em&gt; e &lt;em&gt;en.lang&lt;/em&gt; devem estar em formato zip. Para pegar os arquivos, baixe a ferramenta &lt;a href="https://en.uesp.net/wiki/Online:EsoExtractData" target="_blank"&gt;EsoExtractData&lt;a&gt; rode o Windows PowerShell ou Promt de Comando, vá até a pasta que guarda &lt;em&gt;EsoExtractData.exe&lt;/em&gt;, e escreva os seguintes comandos:&lt;br/&gt; &lt;tt&gt;EsoExtractData "C:\&lt;em&gt;path_to&lt;/em&gt;\Zenimax Online\The Elder Scrolls Online\depot\eso.mnf" "C:\&lt;em&gt;target_folder&lt;/em&gt;" -a 0&lt;br/&gt;EsoExtractData "C:\&lt;em&gt;path_to&lt;/em&gt;\Zenimax Online\The Elder Scrolls Online\depot\eso.mnf" "C:\&lt;em&gt;target_folder&lt;/em&gt;" -a 2&lt;/tt&gt;</files-setup-text>
       <target-language-text>&lt;strong&gt;Passo 3. Lingua da tradução&lt;/strong&gt;&lt;br/&gt;Entre a lingua para qual o jogo será traduzido. Deve ser especificado por um código de duas letras. Opcionalmente, especifique um arquivo CSV (valores separados por vírgulas) que contenha textos já traduzidos e somente textos traduzidos. O arquivo deve estar compactado zip e conter um formato suportado pela ferramenta EsoExtractData. Por exemplo:&lt;br/&gt;&lt;tt&gt;"ID","Unknown","Index","Offset","Text"&lt;br/&gt;"3427285","0","7","5","Beber"&lt;br/&gt;"228103012","0","9037","22152076","Eres una mujer."&lt;/tt&gt;&lt;br/&gt;assim sucessivamente.</target-language-text>
       <admin-text>&lt;strong&gt;Passo 4. Primeiro usuário&lt;/strong&gt;&lt;br/&gt;Entre informações do primeiro administrador.</admin-text>
       <end-setup-text>&lt;strong&gt;Criação de dicas&lt;/strong&gt;&lt;br/&gt;Pode editar o arquivo lang/br/tips.php para escrever dicas para os tradutores.&lt;strong&gt;&lt;br/&gt;&lt;br/&gt;Instruções para o tratamento dos códigos&lt;/strong&gt;&lt;br/&gt;O arquivo lang/br/codes.php deve ser editado para dar informações precisas sobre como os códigos do ESO devem ser transcritos.&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Por favor, devido a razões de segurança, remova as permissões do set.php ou apague aquele arquivo. NÃO SE ESQUEÇA!&lt;/strong&gt;</end-setup-text>

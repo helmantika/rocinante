@@ -84,9 +84,9 @@
       <!-- Information about what this app is -->
       <about>&lt;em&gt;The Elder Scrolls Online&lt;/em&gt; Translation Web App</about>
       <!-- Information about joining as a translator. Rocinante is for private websites, so public sign up is not allowed. -->
-      <join>Visit &lt;a href="http://www.cervanteso.org.es"&gt;cervanteso.org.es&lt;/a&gt; for further information</join>
-      <!-- Sorry, site is being maintenanced. -->
-      <maintenance>Currently Rocinante is under maintenance. Sorry for the incovenience.</maintenance>
+      <join>Visit &lt;a href="https://www.cervanteso.org.es"&gt;cervanteso.org.es&lt;/a&gt; for further information</join>
+      <!-- Sorry, site is being maintained. -->
+      <maintenance>Currently Rocinante is under maintenance. Sorry for the inconvenience.</maintenance>
    </loginpage>
    <frontpage>
       <!-- Translation progress, i.e. "50 of 100 strings translated (50.00%)" -->
@@ -107,7 +107,7 @@
       <new-message>1 new message</new-message>
       <!-- Two or more new messages -->
       <new-messages>%d new messages</new-messages>
-      <!-- Seach box placeholder -->
+      <!-- Search box placeholder -->
       <search-caption>Search</search-caption>
       <!-- Searching doesn't work for strings that have less than 3 characters -->
       <search-error>Searching expression must contain more than 3 characters.</search-error>      
@@ -183,7 +183,7 @@
                <progress>Progress</progress>
                <!-- User who assigned the task -->
                <assigner>Assigned by</assigner>
-               <!-- User who's perforing a task I assigned -->
+               <!-- User who's performing a task I assigned -->
                <assigned>Assigned to</assigned>
             </table>
          </tasks>
@@ -245,7 +245,7 @@
                      <last-action>Last action</last-action>
                   </table>
                </stats>
-               <tasks text="Tasks"></tasks>
+               <tasks text="Tasks" />
                <addon text ="Add-on"> <!-- Add-on name -->
                   <extra-files>Extra files</extra-files>
                   <zip-file>ZIP file with extra files</zip-file>
@@ -447,9 +447,9 @@
       <password>Password</password>
       <target-language>Target language (br, es, it, pt…)</target-language>
       <csv-file>CSV file (.zip)</csv-file>
-      <database-setup-text>&lt;strong&gt;Step 1. Creation of database structure&lt;/strong&gt;&lt;br/&gt;Enter the required information to conect to a database that was created on a MySQL server version 5.5 or higher.</database-setup-text>
-      <files-setup-text>&lt;strong&gt;Step 2. Loading of game data&lt;/strong&gt;&lt;br/&gt;Select the specified files. Keep in mind that binary files &lt;em&gt;fr.lang&lt;/em&gt; and &lt;em&gt;en.lang&lt;/em&gt; must be zipped. To get the files, download &lt;a href="http://en.uesp.net/wiki/Online:EsoExtractData" target="_blank"&gt;EsoExtractData&lt;a&gt; tool, run Windows PowerShell or Command Prompt, go to folder that stores &lt;em&gt;EsoExtractData.exe&lt;/em&gt;, and write the following commands:&lt;br/&gt; &lt;tt&gt;EsoExtractData "C:\&lt;em&gt;path_to&lt;/em&gt;\Zenimax Online\The Elder Scrolls Online\depot\eso.mnf" "C:\&lt;em&gt;target_folder&lt;/em&gt;" -a 0&lt;br/&gt;EsoExtractData "C:\&lt;em&gt;path_to&lt;/em&gt;\Zenimax Online\The Elder Scrolls Online\depot\eso.mnf" "C:\&lt;em&gt;target_folder&lt;/em&gt;" -a 2&lt;/tt&gt;</files-setup-text>
-      <target-language-text>&lt;strong&gt;Step 3. Target language&lt;/strong&gt;&lt;br/&gt;Enter the language which the game will be translated into. It must be specified by means of a two letter code. Optionally it is possible to load translated strings with an EsoExtractData CSV (Comma-Separated Values) file. This file must include translated strings only and it must be zipped. It has the following format:&lt;br/&gt;&lt;tt&gt;"ID","Unknown","Index","Offset","Text"&lt;br/&gt;"3427285","0","7","5","Beber"&lt;br/&gt;"228103012","0","9037","22152076","Eres una mujer."&lt;/tt&gt;&lt;br/&gt;and so on.</target-language-text>
+      <database-setup-text>&lt;strong&gt;Step 1. Creation of database structure&lt;/strong&gt;&lt;br/&gt;Enter the required information to connect to a database that was created on a MySQL server version 5.5 or higher.</database-setup-text>
+      <files-setup-text>&lt;strong&gt;Step 2. Loading of game data&lt;/strong&gt;&lt;br/&gt;Select the specified files. Keep in mind that binary files &lt;em&gt;fr.lang&lt;/em&gt; and &lt;em&gt;en.lang&lt;/em&gt; must be zipped. To get the files, download &lt;a href="https://en.uesp.net/wiki/Online:EsoExtractData" target="_blank"&gt;EsoExtractData&lt;a&gt; tool, run Windows PowerShell or Command Prompt, go to folder that stores &lt;em&gt;EsoExtractData.exe&lt;/em&gt;, and write the following commands:&lt;br/&gt; &lt;tt&gt;EsoExtractData "C:\&lt;em&gt;path_to&lt;/em&gt;\Zenimax Online\The Elder Scrolls Online\depot\eso.mnf" "C:\&lt;em&gt;target_folder&lt;/em&gt;" -a 0&lt;br/&gt;EsoExtractData "C:\&lt;em&gt;path_to&lt;/em&gt;\Zenimax Online\The Elder Scrolls Online\depot\eso.mnf" "C:\&lt;em&gt;target_folder&lt;/em&gt;" -a 2&lt;/tt&gt;</files-setup-text>
+      <target-language-text>&lt;strong&gt;Step 3. Target language&lt;/strong&gt;&lt;br/&gt;Enter the language which the game will be translated into. It must be specified by means of a two-letter code. Optionally it is possible to load translated strings with an EsoExtractData CSV (Comma-Separated Values) file. This file must include translated strings only, and it must be zipped. It has the following format:&lt;br/&gt;&lt;tt&gt;"ID","Unknown","Index","Offset","Text"&lt;br/&gt;"3427285","0","7","5","Beber"&lt;br/&gt;"228103012","0","9037","22152076","Eres una mujer."&lt;/tt&gt;&lt;br/&gt;and so on.</target-language-text>
       <admin-text>&lt;strong&gt;Step 4. First user&lt;/strong&gt;&lt;br/&gt;Enter information for the first admin.</admin-text>
       <end-setup-text>&lt;strong&gt;Writing of tips&lt;/strong&gt;&lt;br/&gt;Edit lang/en/tips.php to write useful tips for translators.&lt;strong&gt;&lt;br/&gt;&lt;br/&gt;Instructions for code transcription&lt;/strong&gt;&lt;br/&gt;File lang/en/codes.php should be edited in order to give precise information about how ESO codes must be transcribed.&lt;br/&gt;&lt;br/&gt;&lt;strong&gt;Please, due to security reasons, remove permissions from setup.php or delete that file. Don't forget it!&lt;/strong&gt;</end-setup-text>
       <failed-connection>Unable to connect. Response: </failed-connection>
